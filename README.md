@@ -28,3 +28,4 @@ Segundo o Clean Architecture, devem estar desaclopadas:
 Essa arquitetura fica bem maior mas bem definida, parece _overengineering_ mas as classes estão reduzidas e bem definidas com uma única responsabilidade.
 
 ## Login Router 1/4
+Utilização do TDD, do zero e criaçaõ de testes unitários do compotente Router
