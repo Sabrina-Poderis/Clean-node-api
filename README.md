@@ -6,6 +6,7 @@ Projeto instruido por [Rodrigo Manguinho](https://www.linkedin.com/in/rmanguinho
 1. [Project setup](#project-setup)
 2. [Decoupling components](#decoupling-components)
 3. [Login Router 1/4](#login-router-14)
+3. [Login Router 2/4](#login-router-24)
 
 ## Project setup
 Criação do projeto no GitHub e instação das primeiras dependências do projeto. Dependências: Jest, Lint-Staged, Husky e Standard.
@@ -28,4 +29,10 @@ Segundo o Clean Architecture, devem estar desaclopadas:
 Essa arquitetura fica bem maior mas bem definida, parece _overengineering_ mas as classes estão reduzidas e bem definidas com uma única responsabilidade.
 
 ## Login Router 1/4
-Utilização do TDD, do zero e criaçaõ de testes unitários do compotente Router
+Utilização do TDD, do zero e criação de testes unitários do compotente Router
+
+## Login Router 2/4
+Desacomplamento de componentes router e utilização de test doubles, no caso um spy, para testar a integração entre dois componentes.
+
+- Código 401: Usado quando o sistema não indentifica o usuário
+- Código 403: Usado quando o sistema consegue identificar o usuário mas ele não tem permissão de acesso para executar a determinada ação
