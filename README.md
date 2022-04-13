@@ -7,6 +7,7 @@ Projeto instruido por [Rodrigo Manguinho](https://www.linkedin.com/in/rmanguinho
 2. [Decoupling components](#decoupling-components)
 3. [Login Router 1/4](#login-router-14)
 3. [Login Router 2/4](#login-router-24)
+3. [Login Router 3/4](#login-router-34)
 
 ## Project setup
 Criação do projeto no GitHub e instação das primeiras dependências do projeto. Dependências: Jest, Lint-Staged, Husky e Standard.
@@ -36,3 +37,6 @@ Desacomplamento de componentes router e utilização de test doubles, no caso um
 
 - Código 401: Usado quando o sistema não indentifica o usuário
 - Código 403: Usado quando o sistema consegue identificar o usuário mas ele não tem permissão de acesso para executar a determinada ação
+
+## Login Router 3/4
+Finalização dos testes unitários relacionados a integração com o use case de autenticação e alguns refactorings para melhorar a legibilidade do código.
