@@ -6,8 +6,9 @@ Projeto instruido por [Rodrigo Manguinho](https://www.linkedin.com/in/rmanguinho
 1. [Project setup](#project-setup)
 2. [Decoupling components](#decoupling-components)
 3. [Login Router 1/4](#login-router-14)
-3. [Login Router 2/4](#login-router-24)
-3. [Login Router 3/4](#login-router-34)
+4. [Login Router 2/4](#login-router-24)
+5. [Login Router 3/4](#login-router-34)
+6. [Login Router 4/4](#login-router-44)
 
 ## Project setup
 Criação do projeto no GitHub e instação das primeiras dependências do projeto. Dependências: Jest, Lint-Staged, Husky e Standard.
@@ -40,3 +41,6 @@ Desacomplamento de componentes router e utilização de test doubles, no caso um
 
 ## Login Router 3/4
 Finalização dos testes unitários relacionados a integração com o use case de autenticação e alguns refactorings para melhorar a legibilidade do código.
+
+## Login Router 4/4
+Integração do LoginRouter com um validador de email, sem acoplá-la a nenhum framework.
