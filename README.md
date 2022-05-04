@@ -10,6 +10,7 @@ Projeto instruido por [Rodrigo Manguinho](https://www.linkedin.com/in/rmanguinho
 5. [Login Router 3/4](#login-router-34)
 6. [Login Router 4/4](#login-router-44)
 7. [CI e Jest 1/2](#ci-e-jest-12)
+8. [CI e Jest 2/2](#ci-e-jest-22)
 
 ## Project setup
 Criação do projeto no GitHub e instação das primeiras dependências do projeto. Dependências: Jest, Lint-Staged, Husky e Standard.
@@ -48,3 +49,6 @@ Integração do LoginRouter com um validador de email, sem acoplá-la a nenhum f
 
 ## CI e Jest 1/2
 Utilização do Jest para gerar scripts cada vez mais personalizados, gerar cobertura de testes e gerar um script para rodar sempre antes do push.
+
+## CI e Jest 2/2
+Utilização de configurações do Jest para gerar scripts específicos para testes unitários e de integração.
