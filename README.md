@@ -11,6 +11,7 @@ Projeto instruido por [Rodrigo Manguinho](https://www.linkedin.com/in/rmanguinho
 6. [Login Router 4/4](#login-router-44)
 7. [CI e Jest 1/2](#ci-e-jest-12)
 8. [CI e Jest 2/2](#ci-e-jest-22)
+9. [Email Validator](#email-validator)
 
 ## Project setup
 Criação do projeto no GitHub e instação das primeiras dependências do projeto. Dependências: Jest, Lint-Staged, Husky e Standard.
@@ -52,3 +53,6 @@ Utilização do Jest para gerar scripts cada vez mais personalizados, gerar cobe
 
 ## CI e Jest 2/2
 Utilização de configurações do Jest para gerar scripts específicos para testes unitários e de integração.
+
+## Email Validator
+Criação da classe EmailValidator e como testar uma classe que depende de um framework externo
