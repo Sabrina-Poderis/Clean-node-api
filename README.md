@@ -64,3 +64,6 @@ Testes da classe AuthUseCase. Como testar Exceptions com o Jest.
 
 ## Auth UseCase 2/4
 Prosseguimento com os testes da classe AuthUseCase. Integração do use case com a camada de infra, através de um repositório.
+
+## Auth UseCase 3/4
+Prosseguimento com os testes da classe AuthUseCase. Integração do use case com a classe de criptografia e com a classe de gerar tokens
